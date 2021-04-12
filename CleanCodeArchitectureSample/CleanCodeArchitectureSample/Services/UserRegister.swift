@@ -10,7 +10,7 @@ import Foundation
 protocol UserServiceProtocol {
     
     func getAllUsers(completion: @escaping GetAllUsersResponseHandler<AllUsers>)
-    
+    func downloadFile(url:FileApiRouter,completion: @escaping (String?,Error?)->Void)
     
 }
 
@@ -21,5 +21,11 @@ class UserService: BaseService, UserServiceProtocol {
             completion(res,alert,err)
         })
        
+    }
+    
+    func downloadFile(url: FileApiRouter, completion: @escaping (String?, Error?)->Void) {
+        self.networkService.performDownload(route: url, completion: {(path,error) in
+            completion(path,error)
+        })
     }
 }

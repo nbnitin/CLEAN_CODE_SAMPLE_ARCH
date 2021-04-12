@@ -57,6 +57,9 @@ class ViewController: UIViewController {
         router?.routeToPhotos()
     }
     
+    @IBAction func downloadAction(_ sender: Any) {
+        interactor?.simulateDownload()
+    }
 }
 
 //MARK: view controller table delegate

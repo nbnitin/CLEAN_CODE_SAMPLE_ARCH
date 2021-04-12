@@ -71,6 +71,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="ucA-Lw-UMY">
+                        <barButtonItem key="leftBarButtonItem" title="Download" id="M8N-iT-0h7">
+                            <connections>
+                                <action selector="downloadAction:" destination="BYZ-38-t0r" id="baD-kB-YRA"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Photos" id="rpz-H5-uq3">
                             <connections>
                                 <action selector="goToPhotosAction:" destination="BYZ-38-t0r" id="KAk-rM-qUD"/>

@@ -11,6 +11,7 @@ import Foundation
 
 protocol UserInteractorProtocol{
     func getAllUsers()
+    func simulateDownload()
 }
 
 class UserInteractor:UserInteractorProtocol {
@@ -24,6 +25,13 @@ class UserInteractor:UserInteractorProtocol {
     func getAllUsers() {
         worker.getAllUsers(completion: {res,alert,err in
             self.presenter?.showAllUsers(res: res)
+        })
+    }
+    
+    //MARK: download file()
+    func simulateDownload(){
+        worker.downloadFile(url: "http://www.africau.edu/images/default/sample.pdf", completion: {(path,err) in
+            print("book downloaded temp path", path)
         })
     }
 }

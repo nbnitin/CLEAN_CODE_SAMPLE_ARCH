@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C9CC05DE262C5338A516883 /* Pods_CleanCodeArchitectureSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8224F22ED5EF6E0677B2F6 /* Pods_CleanCodeArchitectureSample.framework */; };
+		C308FD4B2624330900C64563 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308FD4A2624330800C64563 /* FileService.swift */; };
+		C308FD4E2624334E00C64563 /* FileApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308FD4D2624334E00C64563 /* FileApiRouter.swift */; };
+		C308FD512624364A00C64563 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308FD502624364A00C64563 /* Utils.swift */; };
 		C3103BDB261AF2C50089A87B /* UserWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3103BDA261AF2C50089A87B /* UserWorker.swift */; };
 		C31F00C3261ACD2F00924CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F00C2261ACD2F00924CCF /* AppDelegate.swift */; };
 		C31F00C5261ACD2F00924CCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F00C4261ACD2F00924CCF /* SceneDelegate.swift */; };
@@ -69,6 +72,9 @@
 /* Begin PBXFileReference section */
 		8F8224F22ED5EF6E0677B2F6 /* Pods_CleanCodeArchitectureSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanCodeArchitectureSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		975F874507B556153C593BAF /* Pods-CleanCodeArchitectureSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanCodeArchitectureSample.release.xcconfig"; path = "Target Support Files/Pods-CleanCodeArchitectureSample/Pods-CleanCodeArchitectureSample.release.xcconfig"; sourceTree = "<group>"; };
+		C308FD4A2624330800C64563 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		C308FD4D2624334E00C64563 /* FileApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileApiRouter.swift; sourceTree = "<group>"; };
+		C308FD502624364A00C64563 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		C3103BDA261AF2C50089A87B /* UserWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWorker.swift; sourceTree = "<group>"; };
 		C31F00BF261ACD2F00924CCF /* CleanCodeArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanCodeArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31F00C2261ACD2F00924CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -245,6 +251,7 @@
 				C3246CAB261C21DF00E35F40 /* PostsService.swift */,
 				C3ECD584261ED3B30051DECE /* ImageServiceProtocol.swift */,
 				C3ECD5A0261EE4900051DECE /* PhotosService.swift */,
+				C308FD4A2624330800C64563 /* FileService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -257,6 +264,7 @@
 				C31F00FE261AD73300924CCF /* Config */,
 				C31F0133261AEBD700924CCF /* Constants */,
 				C3246CB7261C256E00E35F40 /* JSONHelper.swift */,
+				C308FD502624364A00C64563 /* Utils.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -303,6 +311,7 @@
 				C31F0121261AE1C200924CCF /* RefreshApiRouter.swift */,
 				C3246CB4261C24BA00E35F40 /* CreatePostsApiRouter.swift */,
 				C3ECD5A6261EE5740051DECE /* GetAllPhotosApiRouter.swift */,
+				C308FD4D2624334E00C64563 /* FileApiRouter.swift */,
 			);
 			path = ApiRouter;
 			sourceTree = "<group>";
@@ -521,6 +530,7 @@
 				C3103BDB261AF2C50089A87B /* UserWorker.swift in Sources */,
 				C31F00DC261AD4E500924CCF /* UsersPresenter.swift in Sources */,
 				C3ECD5AB261EEADD0051DECE /* PhotoVCInteractor.swift in Sources */,
+				C308FD4E2624334E00C64563 /* FileApiRouter.swift in Sources */,
 				C3246CA0261C1DB400E35F40 /* CreatePostsInteractor.swift in Sources */,
 				C3ECD5A7261EE5740051DECE /* GetAllPhotosApiRouter.swift in Sources */,
 				C31F00E7261AD53900924CCF /* Worker.swift in Sources */,
@@ -539,6 +549,7 @@
 				C31F00D9261AD4D000924CCF /* UsersInteractor.swift in Sources */,
 				C31F0112261ADF9F00924CCF /* AlamofireWrapper.swift in Sources */,
 				C31F00F0261AD61400924CCF /* UserRegister.swift in Sources */,
+				C308FD512624364A00C64563 /* Utils.swift in Sources */,
 				C31F00F5261AD68400924CCF /* CompletionHandlerConstants.swift in Sources */,
 				C31F0101261AD87E00924CCF /* ApiBaseService.swift in Sources */,
 				C3ECD590261ED6230051DECE /* UIImageExtension.swift in Sources */,
@@ -548,6 +559,7 @@
 				C31F0122261AE1C200924CCF /* RefreshApiRouter.swift in Sources */,
 				C3246CB5261C24BA00E35F40 /* CreatePostsApiRouter.swift in Sources */,
 				C3ECD5A1261EE4900051DECE /* PhotosService.swift in Sources */,
+				C308FD4B2624330900C64563 /* FileService.swift in Sources */,
 				C3ECD585261ED3B30051DECE /* ImageServiceProtocol.swift in Sources */,
 				C3246CB2261C244800E35F40 /* CreatePostsResponse.swift in Sources */,
 				C31F00C5261ACD2F00924CCF /* SceneDelegate.swift in Sources */,

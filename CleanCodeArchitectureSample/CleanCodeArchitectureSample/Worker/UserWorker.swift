@@ -13,4 +13,10 @@ class UserWorker: Worker {
             completion(res,alert,err)
         })
     }
+    
+    func downloadFile(url:String,completion: @escaping (String?,Error?)->Void ) {
+        dataStore.userService.downloadFile(url: FileApiRouter.downloadFile(url: url), completion: {(path,err) in
+            completion(path,err)
+        })
+    }
 }
