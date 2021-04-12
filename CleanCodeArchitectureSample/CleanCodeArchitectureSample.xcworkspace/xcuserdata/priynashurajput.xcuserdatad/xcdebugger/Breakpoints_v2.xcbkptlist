@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A304CDF8-F6BD-461E-9F8E-0FB1B622C480"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B02321A-BBE5-41E0-868B-61A1E0095967"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Users/UsersInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "705332D6-06B5-448A-8094-B3561C96B3A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Worker/UserWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "getAllUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "705332D6-06B5-448A-8094-B3561C96B3A9 - 30ffa4e203f180de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleanCodeArchitectureSample.UserWorker.getAllUsers(completion: (Swift.Optional&lt;Swift.Array&lt;CleanCodeArchitectureSample.AllUsers&gt;&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Worker/UserWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "705332D6-06B5-448A-8094-B3561C96B3A9 - fff361f8faa35e7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;CleanCodeArchitectureSample.AllUsers&gt;&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CleanCodeArchitectureSample.UserWorker.getAllUsers(completion: (Swift.Optional&lt;Swift.Array&lt;CleanCodeArchitectureSample.AllUsers&gt;&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Worker/UserWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "514D2E39-8EFA-4A57-87D6-5C6A7EB5B7C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Users/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B91D4F8C-788A-4B40-924E-951583148967"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Users/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A92AE1A-F715-4F55-A23B-D02CF2A9D94F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Worker/UserWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "getAllUsers(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C25A6491-DF22-47CD-94FD-AC1EA81D5D72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/Api/AlamofireWrapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "performRequest(for:route:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A347358C-BDD8-47C5-83DE-2029EA6E535E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/UserRegister.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getAllUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A347358C-BDD8-47C5-83DE-2029EA6E535E - 715b1f3ca2e27def"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleanCodeArchitectureSample.UserService.getAllUsers(completion: (Swift.Optional&lt;Swift.Array&lt;CleanCodeArchitectureSample.AllUsers&gt;&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Services/UserRegister.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "A347358C-BDD8-47C5-83DE-2029EA6E535E - 2286e13f1427ff82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;CleanCodeArchitectureSample.AllUsers&gt;&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CleanCodeArchitectureSample.UserService.getAllUsers(completion: (Swift.Optional&lt;Swift.Array&lt;CleanCodeArchitectureSample.AllUsers&gt;&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Services/UserRegister.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6ACDD0F9-FE4B-4F9E-B863-308E9D6D52F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/Api/AlamofireWrapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "performRequest(for:route:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A94E6A3-487F-4D08-89E8-DA5A2B8FCEB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/ApiRouter/UserApiRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "method"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7C1D47B-7C82-4A8C-8F64-DD33DA86869E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/ApiRouter/UserApiRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "endPoint"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EF213AD-9824-462D-9B55-54DB3681632B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/ApiRouter/ApiRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "baseUrl"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE21365E-88E9-476B-BBC1-26B43A551281"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Configurations"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "DE21365E-88E9-476B-BBC1-26B43A551281 - 305652e794f36ab7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_E63B28E64CAC7A414CE70C40D5809546_func0"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "DE21365E-88E9-476B-BBC1-26B43A551281 - b0de08e9b621a50e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleanCodeArchitectureSample.Environment.Keys.Plist.Configurations.backendUrl.unsafeMutableAddressor : Swift.String"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "475C4692-AFA1-41BE-8FE4-6E1BE5F7CF7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "infoDictionary"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE4D663D-4D12-4892-B16C-FB024B7FC643"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "configDictionary"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEBB00C5-8E1E-4D46-81E6-ABDB8C6A24E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "backendUrl"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2C5DF0C-839B-4504-A4B4-474F9C2E2F78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "backendUrl"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF719B85-9437-4202-B6DF-686444F95A41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "configDictionary"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CF719B85-9437-4202-B6DF-686444F95A41 - 305652e794a364a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_E63B28E64CAC7A414CE70C40D5809546_func5"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "CF719B85-9437-4202-B6DF-686444F95A41 - f4e19cc8cec56dbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Dictionary&lt;Swift.String, Any&gt; in variable initialization expression of static CleanCodeArchitectureSample.Environment.configDictionary : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "CF719B85-9437-4202-B6DF-686444F95A41 - 14863f323c9afd0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleanCodeArchitectureSample.Environment.configDictionary.unsafeMutableAddressor : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/Utilities/Config/EnvConfig.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8840EB0-59DB-442F-BED1-53F31E7DCBFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/ViewControllers/Posts/CreatePostsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "createPost(title:body:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D8840EB0-59DB-442F-BED1-53F31E7DCBFB - c7b106255a21a701"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleanCodeArchitectureSample.CreatePostsInteractor.createPost(title: Swift.String, body: Swift.String) -&gt; ()"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/ViewControllers/Posts/CreatePostsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "D8840EB0-59DB-442F-BED1-53F31E7DCBFB - dd0f43e1e910fc7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;CleanCodeArchitectureSample.CreatePostsResponse&gt;, Swift.Optional&lt;CleanCodeArchitectureSample.AlertResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CleanCodeArchitectureSample.CreatePostsInteractor.createPost(title: Swift.String, body: Swift.String) -&gt; ()"
+                  moduleName = "CleanCodeArchitectureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priynashurajput/Documents/CleanCodeArchitectureSample/CleanCodeArchitectureSample/ViewControllers/Posts/CreatePostsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04EF2F63-1725-406F-BCBC-D85CD62350E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/ViewControllers/Posts/CreatePostsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "createPost(title:body:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D9908F2-9596-4A8E-BE12-9403E5F29592"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/ApiRouter/CreatePostsApiRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "endPoint"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9FC7D5E-6EF3-4DAC-968C-5BE39B03B34E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/Services/ApiRouter/CreatePostsApiRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "endPoint"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8480DC8B-F5D6-497B-963F-29803399B293"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/ViewControllers/PhotoVC/PhotosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "showPhotos(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A51B4B7-1B76-4EF5-A31E-F307427C96FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/ViewControllers/PhotoVC/PhotosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50281232-1AE3-40BE-BC07-B7A66695162E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CleanCodeArchitectureSample/ViewControllers/PhotoVC/PhotosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
